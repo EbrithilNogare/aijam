@@ -43,7 +43,7 @@ docs/                   # Documentation, guides, project templates
 - No routing: Single static page with all content
 - No state management: Static content, no user interaction
 - React Compiler enabled: Auto-optimization via Babel plugin
-- Base path `/aijam1/`: Configured for GitHub Pages deployment
+- Base path: Dynamic (uses repo name from `GITHUB_REPOSITORY` in CI, defaults to `/aijam/`)
 
 **Build Pipeline:** Vite → React plugin → Babel (React Compiler) → Tailwind CSS → Bundle
 
@@ -90,7 +90,7 @@ function App() {
 - Adding new dependencies (minimalist project)
 - Changing Vite/Babel/ESLint config
 - Adding routing or state management (intentionally omitted)
-- Modifying base path (affects deployment)
+- Modifying base path logic (auto-detects from repo name in CI)
 
 🚫 **Never:**
 
