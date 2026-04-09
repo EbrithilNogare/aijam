@@ -1,10 +1,10 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center gap-6 px-5 py-12 text-center">
       <h1 className="text-5xl font-medium tracking-tight text-gray-900 md:text-7xl dark:text-gray-100">
-        AI JAM #1
+        AI JAM #2
       </h1>
       <p className="text-xl font-medium text-purple-500 md:text-2xl dark:text-purple-400">
         Kóduj chytře, ne víc
@@ -24,7 +24,7 @@ function App() {
         </p>
       </div>
     </section>
-  )
+  );
 }
 
-export default App
+export default App;
